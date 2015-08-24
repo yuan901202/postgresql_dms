@@ -1,0 +1,1 @@
+SELECT RobberId,Nickname,(Age-NoYears) AS NotInPrison FROM Robbers WHERE NoYears>(Age/2);

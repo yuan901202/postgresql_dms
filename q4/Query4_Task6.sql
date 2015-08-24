@@ -1,0 +1,1 @@
+SELECT Description,RobberId,Nickname FROM HasSkills NATURAL JOIN Skills NATURAL JOIN Robbers ORDER BY Description,RobberId;

@@ -1,0 +1,1 @@
+SELECT Robberid,NickName,NoYears FROM Robbers WHERE NoYears>3 ORDER BY RobberId;

@@ -1,0 +1,1 @@
+SELECT Security, COUNT(Security)AS Counts,AVG(Amount) As AvgAmount FROM(SELECT BankName,City,Amount,Security FROM Robberies NATURAL JOIN Banks) AS Robberies_Banks_Security GROUP BY Security;

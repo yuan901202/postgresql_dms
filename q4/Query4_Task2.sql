@@ -1,0 +1,1 @@
+SELECT DISTINCT BankName FROM Banks NATURAL JOIN HasAccounts NATURAL JOIN ROBBERS WHERE Nickname ='Calamity Jane';

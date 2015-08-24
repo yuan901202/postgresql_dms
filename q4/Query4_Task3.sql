@@ -1,0 +1,1 @@
+SELECT BankName, City FROM Banks WHERE BankName NOT IN (SELECT BankName FROM Banks WHERE City = 'Chicago') ORDER BY NoAccounts;
